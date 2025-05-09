@@ -1,0 +1,16 @@
+class Student:
+    def _init_(self, name, roll_no, course):
+        self.name = name
+        self.roll_no = roll_no
+        self.course = course
+
+    def display_info(self):
+        print(f"Name: {self.name}")
+        print(f"Roll no : {self.roll_no}")
+        print(f"Course : {self.course}")
+
+
+# Example usage
+if _name_ == "_main_":
+    student = Student("Ambreen Arif", "BSM23-22", "Mathematics")
+    student.display_info()
